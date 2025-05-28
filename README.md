@@ -479,5 +479,3 @@ GROUP BY numero_membre;
 12. Afficher les événements avec leur lieu et leur nombre maximal de joueurs.
 
 ---
-
-Si tu veux, je peux aussi préparer un fichier téléchargeable, des corrigés, ou même un jeu de données d'exemple pour t'entraîner ! Dis-moi.
