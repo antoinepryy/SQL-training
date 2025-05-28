@@ -134,3 +134,80 @@ Voici un résumé des tables clés et de leurs colonnes principales pour t'aider
 
 ---
 
+### 🏠 **Table `club`**
+
+| Colonne  | Description           |
+| -------- | --------------------- |
+| numero   | Identifiant club      |
+| nom      | Nom du club           |
+
+---
+
+### 🎁 **Table `dotation`**
+
+| Colonne       | Description                  |
+| ------------- | ---------------------------- |
+| numero        | Identifiant dotation         |
+| titre         | Titre de la dotation         |
+| num_objet     | Numéro de l'objet            |
+| quantite      | Quantité prévue              |
+| manifestation | Manifestation associée       |
+| evenement     | Événement associé           |
+| date          | Date de dotation            |
+| montant       | Montant lié à la dotation    |
+| commentaire   | Commentaire éventuel         |
+
+---
+
+### 📦 **Table `equipement`**
+
+| Colonne  | Description          |
+| -------- | -------------------- |
+| numero   | Identifiant produit  |
+| nom      | Nom de l'équipement  |
+| taille   | Taille               |
+| photo    | Photo associée       |
+| prix     | Prix unitaire        |
+| stock    | Quantité en stock    |
+| tri      | Ordre de tri         |
+| visu     | Visible sur site ?   |
+
+---
+
+### 🕹 **Table `evenement`**
+
+| Colonne             | Description                |
+| ------------------- | -------------------------- |
+| numero             | Identifiant événement      |
+| manifestation      | Manifestation associée     |
+| formule           | Formule de jeu             |
+| lieu              | Lieu                       |
+| date_debut        | Date de début              |
+| heure_debut       | Heure de début             |
+| ouvert           | Ouvert à inscriptions ?     |
+| couta, coutb     | Coût participant, invité   |
+| cout_surplace    | Coût sur place             |
+| nbr_joueur_max   | Nombre max de joueurs      |
+| nbr_joueur_equipe| Joueurs par équipe         |
+| remplacant       | Acceptation remplaçants    |
+
+---
+
+### 📑 **Table `article`**
+
+| Colonne         | Description              |
+| --------------- | ------------------------ |
+| numero         | Identifiant article       |
+| type           | Type d'article            |
+| titre          | Titre de l'article        |
+| auteur         | Auteur                   |
+| date           | Date de publication       |
+| vignette       | Image associée            |
+| visible        | Visible sur site ?        |
+| droit          | Droits associés           |
+| tri            | Ordre d'affichage         |
+| contenu_court  | Résumé                   |
+| contenu        | Contenu complet           |
+
+---
+
